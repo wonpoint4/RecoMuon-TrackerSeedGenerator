@@ -1,6 +1,6 @@
 {
     "barrel": {
-        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding_DNNclassifier_2x512_barrel.pb",
+        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding/DNNclassifier_Run3_2x512_barrel.pb",
         "n_features": 21,
         "feature_names": [
             "validHits",
@@ -1195,7 +1195,7 @@
         "output_layer": "model/dnn_training_jun27_2x512_barrel_output/Sigmoid"
     },
     "endcap": {
-        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding_DNNclassifier_2x512_endcap.pb",
+        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding/DNNclassifier_Run3_2x512_endcap.pb",
         "n_features": 21,
         "feature_names": [
             "validHits",

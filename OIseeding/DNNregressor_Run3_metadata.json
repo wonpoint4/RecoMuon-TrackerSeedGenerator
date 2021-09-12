@@ -1,7 +1,7 @@
 {
     "HB": {
         "output_layer": "model/dnn_ForSeparateHB_0_output/BiasAdd", 
-        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding_DNNregressor_HB_balanced.pb", 
+        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding/DNNregressor_Run3_HB_balanced.pb", 
         "input_layer": "dnn_ForSeparateHB_0_input", 
         "feature_names": [
             "pt", 
@@ -35,7 +35,7 @@
     }, 
     "HLIP": {
         "output_layer": "model/dnn_BalancedHLIP_ForSeparateHLIPWithSF_0_output/BiasAdd", 
-        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding_DNNregressor_HLIPwithSF_balanced.pb", 
+        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding/DNNregressor_Run3_HLIPwithSF_balanced.pb", 
         "input_layer": "dnn_BalancedHLIP_ForSeparateHLIPWithSF_0_input", 
         "feature_names": [
             "pt", 
@@ -69,7 +69,7 @@
     },
     "HLMuS": {
         "output_layer": "model/dnn_ForSeparateHLMuS_0_output/BiasAdd", 
-        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding_DNNregressor_HLMuS_balanced.pb", 
+        "dnnmodel_path": "RecoMuon/TrackerSeedGenerator/data/OIseeding/DNNregressor_Run3_HLMuS_balanced.pb", 
         "input_layer": "dnn_ForSeparateHLMuS_0_input", 
         "feature_names": [
             "pt", 
